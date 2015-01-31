@@ -4,6 +4,7 @@ from django.shortcuts import render, get_object_or_404
 from django.views import generic
 from django.utils import timezone
 from polls.models import Choice, Poll
+from django.test import TestCase
 
 # Create your views here.
 class IndexView(generic.ListView):
